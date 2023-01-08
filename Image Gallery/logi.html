@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+body{
+background-color:lightgreen;
+}
+table{
+   border:5px solid black;
+   border-radius:10px;
+   position:relative;
+   top:100px;
+   left:350px;
+   background-color:violet;
+}
+table td,th{
+   width:400px;
+   padding:10px;
+}
+.fin{
+    position:relative;
+    left:250px;
+    top:45px;
+} 
+.fin1{
+    position:relative;
+    left:100px;
+    bottom:5px;
+} 
+.main1{
+   position: relative;
+   font-size:20px;
+   width:120px;
+   
+}
+.main2{
+   position: relative;
+   bottom: 102px;
+   font-size:20px;
+   width:120px;
+   
+}
+.main1:hover{
+ background-color:lightgreen;
+}
+.main2:hover{
+ background-color:lightgreen;
+}
+.f1{
+   position:relative;
+   left:220px;
+   font-size:20px;
+   text-decoration:underline;
+}
+</style>
+<body> 
+    <form action="/" method="post">
+    <table>
+         <tr class="f1"> 
+            <td>"PLEASE ENTER..TO SEE MY GALLERY"</h1>
+         </tr>
+         <tr> 
+            <th>NAME:</th>
+            <td><input type="text" name="name"></td>
+         </tr>
+         <tr> 
+            <th>PHONE NUMBER:</th>
+            <td><input type="number" name="num"></td>
+         </tr>
+         <tr> 
+            <th>Email:</th>
+            <td><input type="text" name="email"></td>
+         </tr>
+         <tr> 
+            <th>Gender:</th>
+            <td><input type="text" name="gen"></td>
+         </tr>
+         <tr> 
+            <th>WHY DO YOU WANT TO SEE MY GALLERY?:</th>
+            <td><input type="text" name="data"></td>
+         </tr>
+         <tr class="fin1">
+             <td><input type="reset"  class="main1"></td>
+         </tr>
+         <tr class="fin">
+              <td><input type="submit"  class="main2"></td>
+         </tr>
+    </table>
+    </form>
+</body>
+</html>
